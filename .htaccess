@@ -1,0 +1,6 @@
+# .htaccess in root
+Options -Indexes
+<FilesMatch "\.(inc|sql)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
